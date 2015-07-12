@@ -1,0 +1,14 @@
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\NLog.config
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\PersonalCMS.Console.exe.config
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\PersonalCMS.Console.exe
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\PersonalCMS.Console.pdb
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\EntityFramework.dll
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\NLog.dll
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\PersonalCMS.Infrastructure.SystemLog.dll
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\PersonalCMS.Infrastructure.SystemLog.pdb
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\EntityFramework.xml
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\NLog.xml
+F:\MyCode\WebApplication1\PersonalCMS.Console\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\MyCode\WebApplication1\PersonalCMS.Console\obj\Debug\PersonalCMS.Console.csprojResolveAssemblyReference.cache
+F:\MyCode\WebApplication1\PersonalCMS.Console\obj\Debug\PersonalCMS.Console.exe
+F:\MyCode\WebApplication1\PersonalCMS.Console\obj\Debug\PersonalCMS.Console.pdb
