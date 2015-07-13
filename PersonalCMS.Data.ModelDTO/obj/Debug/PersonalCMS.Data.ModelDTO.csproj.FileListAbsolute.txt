@@ -1,0 +1,10 @@
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\PersonalCMS.Data.ModelDTO.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\PersonalCMS.Data.ModelDTO.pdb
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\PersonalCMS.Data.Model.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\EntityFramework.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\PersonalCMS.Data.Model.pdb
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\EntityFramework.xml
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\obj\Debug\PersonalCMS.Data.ModelDTO.csprojResolveAssemblyReference.cache
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\obj\Debug\PersonalCMS.Data.ModelDTO.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.ModelDTO\obj\Debug\PersonalCMS.Data.ModelDTO.pdb

@@ -50,14 +50,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CmsDBcontext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PersonalCMS.Data.Model\PersonalCMS.Data.Model.csproj">
+      <Project>{7c563e15-b360-40cf-a279-599ab803448c}</Project>
+      <Name>PersonalCMS.Data.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonalCMS.Data.Repository\PersonalCMS.Data.Repository.csproj">
+      <Project>{af71534f-95e8-4103-ac0b-23995c1196bb}</Project>
+      <Name>PersonalCMS.Data.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PersonalCMS.Infrastructure.SystemLog\PersonalCMS.Infrastructure.SystemLog.csproj">
       <Project>{bcda0e80-2e51-4fe5-ba16-9385ebc9a03d}</Project>
       <Name>PersonalCMS.Infrastructure.SystemLog</Name>

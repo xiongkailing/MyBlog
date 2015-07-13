@@ -37,6 +37,10 @@ namespace PersonalCMS.Data.Model
         /// </summary>
         public virtual UserRole Role { get; set; }
         /// <summary>
+        /// 上次登录时间
+        /// </summary>
+        public DateTime LastLoginTime { get; set; }
+        /// <summary>
         /// 文章
         /// </summary>
         public virtual ICollection<Article> Articles { get; set; }

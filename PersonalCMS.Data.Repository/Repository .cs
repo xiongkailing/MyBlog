@@ -18,8 +18,7 @@ namespace PersonalCMS.Data.Repository
         private IList<TEntity> updateEntities;
         private IList<TEntity> deleteEntities;
         private bool disposed = false;
-
-        private readonly DbContext db;
+        protected readonly DbContext db;
         public Repository(IDbContext context)
         {
             addEntities = new List<TEntity>();

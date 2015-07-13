@@ -15,6 +15,7 @@ namespace PersonalCMS.Data.Model.ModelsMapping
             this.HasKey(u => u.Id);
             this.HasMany(u => u.Articles).WithRequired(a => a.Author);
             this.HasMany(u => u.Comments).WithOptional(c => c.User);
+            this.HasOptional(u => u.Role);
             this.Property(u => u.BirthDay).IsOptional();
             this.Property(u => u.NickName).IsRequired();
             this.Property(u => u.Password).IsRequired();
