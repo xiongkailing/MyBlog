@@ -20,7 +20,7 @@ namespace PersonalCMS.Infrastructure.SystemLog
                 return instance;
             }
         }
-        public void Info(LogLevel level,string message, Exception ex = null, int userId = 0)
+        public void WriteLog(LogLevel level,string message, Exception ex = null, int userId = 0)
         {
             LogEventInfo ei = new LogEventInfo(level, "", message);
             ei.Properties["userId"] = userId;

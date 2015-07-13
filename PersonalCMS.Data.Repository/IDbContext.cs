@@ -10,6 +10,5 @@ namespace PersonalCMS.Data.Repository
     public interface IDbContext : IDisposable
     {
         DbContext dbContext { get; }
-        int SaveChanges();
     }
 }

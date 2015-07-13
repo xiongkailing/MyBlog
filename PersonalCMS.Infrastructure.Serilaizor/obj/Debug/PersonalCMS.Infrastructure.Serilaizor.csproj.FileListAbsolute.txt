@@ -1,0 +1,6 @@
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\bin\Debug\PersonalCMS.Infrastructure.Serilaizor.dll
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\bin\Debug\PersonalCMS.Infrastructure.Serilaizor.pdb
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\bin\Debug\Newtonsoft.Json.dll
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\bin\Debug\Newtonsoft.Json.xml
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\obj\Debug\PersonalCMS.Infrastructure.Serilaizor.dll
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.Serilaizor\obj\Debug\PersonalCMS.Infrastructure.Serilaizor.pdb

@@ -1,12 +1,11 @@
-﻿using PersonalCMS.Data.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonalCMS.Data.Repository.ModelsMapping
+namespace PersonalCMS.Data.Model.ModelsMapping
 {
     public class UserMapping : EntityTypeConfiguration<User>
     {

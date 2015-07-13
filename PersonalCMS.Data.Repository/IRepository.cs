@@ -10,8 +10,9 @@ namespace PersonalCMS.Data.Repository
     {
         IQueryable<TEntity> Get();
         TEntity GetById(int id);
-        void Insert(TEntity entity, bool isSave = true);
-        void Update(TEntity entity, bool isSave = true);
-        void Delete(int id, bool isSave = true);
+        void Insert(TEntity entity, bool IsCommit = true);
+        void Update(TEntity entity, bool IsCommit = true);
+        void Delete(TEntity entity, bool IsCommit = true);
+        void Delete(int id, bool IsCommit = true);
     }
 }

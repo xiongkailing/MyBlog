@@ -3,16 +3,18 @@ using PersonalCMS.Infrastructure.SystemLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonalCMS.Console
+namespace PersonalCMS.ConsoleTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Log.Instance.Info(LogLevel.Warn,"Test");
+            var test=Assembly.GetExecutingAssembly();
+            Console.WriteLine(test.GetTypes()[0].Namespace);
         }
     }
 }
