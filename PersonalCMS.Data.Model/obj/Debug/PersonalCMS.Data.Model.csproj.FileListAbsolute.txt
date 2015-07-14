@@ -4,5 +4,6 @@ F:\MyCode\WebApplication1\PersonalCMS.Data.Model\bin\Debug\PersonalCMS.Data.Mode
 F:\MyCode\WebApplication1\PersonalCMS.Data.Model\bin\Debug\EntityFramework.dll
 F:\MyCode\WebApplication1\PersonalCMS.Data.Model\bin\Debug\EntityFramework.xml
 F:\MyCode\WebApplication1\PersonalCMS.Data.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\MyCode\WebApplication1\PersonalCMS.Data.Model\obj\Debug\PersonalCMS.Data.Model.csprojResolveAssemblyReference.cache
 F:\MyCode\WebApplication1\PersonalCMS.Data.Model\obj\Debug\PersonalCMS.Data.Model.dll
 F:\MyCode\WebApplication1\PersonalCMS.Data.Model\obj\Debug\PersonalCMS.Data.Model.pdb

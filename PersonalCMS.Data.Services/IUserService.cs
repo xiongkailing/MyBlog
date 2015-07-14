@@ -10,5 +10,6 @@ namespace PersonalCMS.Data.Services
     public interface IUserService
     {
         IEnumerable<UserDTO> Get();
+        UserDTO Login(string name, string passsword);
     }
 }

@@ -1,4 +1,5 @@
 F:\MyCode\WebApplication1\CodeSnippets.Test\bin\Debug\CodeSnippets.Test.dll
 F:\MyCode\WebApplication1\CodeSnippets.Test\bin\Debug\CodeSnippets.Test.pdb
+F:\MyCode\WebApplication1\CodeSnippets.Test\obj\Debug\CodeSnippets.Test.csprojResolveAssemblyReference.cache
 F:\MyCode\WebApplication1\CodeSnippets.Test\obj\Debug\CodeSnippets.Test.dll
 F:\MyCode\WebApplication1\CodeSnippets.Test\obj\Debug\CodeSnippets.Test.pdb

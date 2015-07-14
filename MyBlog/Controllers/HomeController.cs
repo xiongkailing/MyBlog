@@ -1,4 +1,5 @@
-﻿using PersonalCMS.Data.Services;
+﻿using MyBlog.Filters;
+using PersonalCMS.Data.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Web.Mvc;
 
 namespace MyBlog.Controllers
 {
+    [BlogAuthorize]
     public class HomeController : Controller
     {
         private readonly IUserService userService;
@@ -17,6 +19,7 @@ namespace MyBlog.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.UserName = UserSessionModel.GetCurrentUser().Name;
             var dto = userService.Get();
             return View(dto);
         }

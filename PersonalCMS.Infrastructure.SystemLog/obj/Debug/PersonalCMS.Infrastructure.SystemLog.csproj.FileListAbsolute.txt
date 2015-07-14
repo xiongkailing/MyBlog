@@ -3,6 +3,6 @@ F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\bin\Debug\Persona
 F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\bin\Debug\PersonalCMS.Infrastructure.SystemLog.pdb
 F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\bin\Debug\NLog.dll
 F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\bin\Debug\NLog.xml
+F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\obj\Debug\PersonalCMS.Infrastructure.SystemLog.csprojResolveAssemblyReference.cache
 F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\obj\Debug\PersonalCMS.Infrastructure.SystemLog.dll
 F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\obj\Debug\PersonalCMS.Infrastructure.SystemLog.pdb
-F:\MyCode\WebApplication1\PersonalCMS.Infrastructure.SystemLog\obj\Debug\PersonalCMS.Infrastructure.SystemLog.csprojResolveAssemblyReference.cache
