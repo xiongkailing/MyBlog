@@ -12,6 +12,7 @@ namespace MyBlog.Controllers
     public class HomeController : Controller
     {
         private readonly IUserService userService;
+        
         public HomeController(IUserService userService)
         {
             this.userService = userService;

@@ -15,6 +15,7 @@ namespace MyBlog.Infrastructure
             builder.RegisterType<CmsDBContext>().As<IDbContext>().InstancePerRequest();
             builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerRequest();
             builder.RegisterType<UserService>().As<IUserService>().InstancePerRequest();
+            builder.RegisterType<ArticleService>().As<IArticleService>().InstancePerRequest();
         }
 
     }

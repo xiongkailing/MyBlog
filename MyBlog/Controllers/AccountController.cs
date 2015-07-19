@@ -52,6 +52,8 @@ namespace MyBlog.Controllers
                 if (Request.IsAjaxRequest())
                     return Json(new { Message = "登入成功" }, JsonRequestBehavior.AllowGet);
                 else
+                    if (string.IsNullOrEmpty(returnUrl))
+                        returnUrl = "/";
                     return Redirect(returnUrl);
             }
         }

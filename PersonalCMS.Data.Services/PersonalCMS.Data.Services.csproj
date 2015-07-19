@@ -58,6 +58,7 @@
     <Compile Include="ArticleService.cs" />
     <Compile Include="CmsDBContext.cs" />
     <Compile Include="DbSeedor.cs" />
+    <Compile Include="IArticleService.cs" />
     <Compile Include="IUserService.cs" />
     <Compile Include="Mapper\MapperConfiguration.cs" />
     <Compile Include="Mapper\PeronalCMSMapperProfile.cs" />
