@@ -67,3 +67,5 @@ F:\MyCode\WebApplication1\MyBlog\bin\zh-Hans\System.Web.Providers.resources.dll
 F:\MyCode\WebApplication1\MyBlog\obj\Debug\MyBlog.csprojResolveAssemblyReference.cache
 F:\MyCode\WebApplication1\MyBlog\obj\Debug\MyBlog.dll
 F:\MyCode\WebApplication1\MyBlog\obj\Debug\MyBlog.pdb
+F:\MyCode\WebApplication1\MyBlog\bin\AutoMapper.Net4.dll
+F:\MyCode\WebApplication1\MyBlog\bin\XmlDocument.xml

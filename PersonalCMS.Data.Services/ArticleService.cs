@@ -101,11 +101,24 @@ namespace PersonalCMS.Data.Services
             var query = this.repository.Get();
             var titlequery = query.Where(a => a.Title.Contains(keywordList[0]) || a.Title.Contains(keywordList[1]) || a.Title.Contains(keywordList[2]));
             var sumamryQuery = query.Where(a => a.Summary.Contains(keywordList[0]) || a.Summary.Contains(keywordList[1]) || a.Summary.Contains(keywordList[2]));
-            var contentQuery = query.Where(a => a.Content.Contains(keywordList[0]) || a.Content.Contains(keywordList[1]) || a.Summary.Contains(keywordList[2])).Take(20);
+            var contentQuery = query.Where(a => a.Content.Contains(keywordList[0]) || a.Content.Contains(keywordList[1]) || a.Summary.Contains(keywordList[2])).Take(20);           
             List<ArticleDTO> datas = new List<ArticleDTO>();
             datas.AddRange(AutoMapper.Mapper.Map<IEnumerable<ArticleDTO>>(titlequery));
-            datas.AddRange(AutoMapper.Mapper.Map<IEnumerable<ArticleDTO>>(sumamryQuery));
-            datas.AddRange(AutoMapper.Mapper.Map<IEnumerable<ArticleDTO>>(contentQuery));
+            var ids = datas.Select(a => a.Id);
+            List<ArticleDTO> summarys = AutoMapper.Mapper.Map<IEnumerable<ArticleDTO>>(sumamryQuery).ToList<ArticleDTO>();
+            summarys.ForEach((a) =>
+            {
+                if (!ids.Contains(a.Id)) {
+                    datas.Add(a);
+                }
+            });
+            ids = datas.Select(a => a.Id);
+            List<ArticleDTO> contents = AutoMapper.Mapper.Map<IEnumerable<ArticleDTO>>(contentQuery).ToList<ArticleDTO>();
+            contents.ForEach((a) => {
+                if (!ids.Contains(a.Id)) {
+                    datas.Add(a);
+                }
+            });
             return datas;
         }
     }

@@ -46,7 +46,7 @@ namespace MyBlog.Controllers
         /// <summary>
         /// 方法三 同方法一 使用IHttpActionResult的工厂方法
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Teststrings</returns>
         public IHttpActionResult Get()
         {
             return new TextResult("hello", Request);
